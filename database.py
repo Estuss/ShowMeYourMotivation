@@ -21,12 +21,15 @@ def sqlwrite():
     all_results = cur.fetchall()
     print(all_results)
 
+k=0
 conn = sqlite3.connect('orders.db')
 cur = conn.cursor()
-clear()
+clear() #убрать если не надо очищать бд
 create()
-
+print("Чтобы добавить человека в базу данных введите имя, фамилию и пол через запятую")
 while True:
-    txt = input("Введите запрос (вручную) ")
-    sqlrequest(txt)
+    txt = input("Добавить ")
+    values = txt.split(",")
+    sqlrequest("INSERT INTO users(userid, fname, lname, gender) VALUES('" + str(k) + "', '" + values[0] + "', '" + values[1] + "','" + values[2] + "');")
+    k+=1
     sqlwrite()
