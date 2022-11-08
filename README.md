@@ -26,4 +26,4 @@ SQL практика:
 
 Введите SQL-запрос:SELECT * FROM users, grades WHERE grades.
 
-$$ \bar v} =\sqrt {\frac{3kT}{m_0}$$
+$$ \bar v} =\sqrt {\frac{3kT}{m_0} $$
