@@ -25,3 +25,5 @@ SQL практика:
 (1, 1, 'ЛР1', '4')
 
 Введите SQL-запрос:SELECT * FROM users, grades WHERE grades.
+
+{\overset{\_}{v}}=\sqrt{\frac{3kT}{m_0}}
