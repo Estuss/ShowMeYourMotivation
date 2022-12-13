@@ -1,6 +1,6 @@
 ## НИКОНОВ АРТЁМ 021
 
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPxeQnQx0XrVHHw6Ul8YhsRqwtHYtx8W47CDVZwCBeZi-sfu46mn3-lGH1RKNLxEosfHs&usqp=CAU
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPxeQnQx0XrVHHw6Ul8YhsRqwtHYtx8W47CDVZwCBeZi-sfu46mn3-lGH1RKNLxEosfHs&usqp=CAU)
 
 $$ \bar v} =\sqrt {\frac{3kT}{m_0} $$
 
