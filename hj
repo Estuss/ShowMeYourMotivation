@@ -1,0 +1,32 @@
+задание 12: def prost(s):
+    for i in range(2,round(s**0.5)+1):
+        if s%i==0:
+            return False
+    return True
+        
+for n in range(50):
+    s='>' + '0'*39+n*'1'+39*'2'
+    while '>1' in s or '>2' in s or '>0' in s:
+        if '>1':
+            s=s.replace('>1','22>',1)
+        if '>2':
+            s=s.replace('>2','2>',1)
+        if '>0':
+            s=s.replace('>0','1>',1)
+    summa=sum([int(i) for i in s if i != ">"])
+    if prost(summa):
+        print(n)
+        break
+
+
+15 задание: for a in range(1,1000):
+    flag=True
+    for x in range(1,1000):
+        if not(((x%2==0) <= (x%3!=0)) or (x+a>=100)):
+            flag=False
+            break
+    if flag:
+        print(a)
+        break
+        
+16 задание: 2023*2022*2021 = 8 266 912 626
