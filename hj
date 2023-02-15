@@ -30,3 +30,17 @@ for n in range(50):
         break
         
 16 задание: 2023*2022*2021 = 8 266 912 626
+
+
+17 задание: 
+f = [int(i) for i in open('17.txt')]
+mx=max([i for i in f if abs(i)%10==3])
+mxk=0
+k=0
+for i in range(len(f)-1):
+    if (abs(f[i])%10==3 and abs(f[i+1])%10!=3) or (abs(f[i])%10!=3 and abs(f[i+1])%10==3):
+        if f[i]**2 + f[i+1]**2 >= mx**2:
+            mxk=max(mxk,f[i]**2 + f[i+1]**2)
+            k+=1
+print(k,mxk)
+        
